@@ -1,0 +1,19 @@
+//Add two strings name in string (My code)
+
+import java.util.*;
+
+public class strings {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        String fn = sc.nextLine();
+        String ln = sc.nextLine();
+        System.out.println("Your name is : " + fn + " " + ln);
+    }
+}
+
+//Input
+//Ajeet
+//raj
+
+//Output
+//Your name is : Ajeet raj
