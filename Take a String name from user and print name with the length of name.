@@ -1,0 +1,22 @@
+//Take a String name from user and print name with the length of name.
+
+import java.util.*;
+
+public class strings {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        String fn = sc.nextLine();
+        String ln = sc.nextLine();
+        String fullname = fn + " " + ln;
+        System.out.println("Your name is : " + fullname);
+        System.out.println("Your name length is : " + fullname.length());
+    }
+}
+
+//Input
+//Ajeet
+//raj
+
+//Output
+//Your name is : Ajeet raj
+//Your name length is : 8
