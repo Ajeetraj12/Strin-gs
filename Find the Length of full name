@@ -1,0 +1,20 @@
+//Find the Length of full name
+
+import java.util.*;
+
+public class strings {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        String fn = sc.nextLine();
+        String ln = sc.nextLine();
+        String fullname = fn + " " + ln;
+        System.out.println(fullname.length());
+    }
+}
+
+//Input
+//Ajeet
+//Raj
+
+//Output
+//8
